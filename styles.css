@@ -1,23 +1,25 @@
 header,
 footer {
 	background-color: #fa4616;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	padding: auto;
 }
 
 header {
+
 	border-bottom: 3px solid blue;
 }
 
 .container {
-	display: flex;
-	flex-direction: column;
+	display: inline-block;
+	flex-direction: row;
 	padding: 20px;
-	margin-left: 1700px;
+	margin: 10px 10px 10px 1700px;
 	position: absolute;
 	font-size: 30px;
 	color: rgb(0, 33, 165);
 	max-width: 900px;
-
+	background-color: rgb(218, 213, 213);
 }
 
 .navc {
@@ -29,7 +31,6 @@ h1 {
 	flex: auto;
 	font-size: 40px;
 	color: rgb(0, 33, 165);
-	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 h2 {
@@ -46,6 +47,7 @@ h2 {
 .stext {
 	font-weight: bold;
 	text-decoration-line: underline;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .link {
@@ -79,6 +81,7 @@ body {
 
 li {
 	list-style-type: none;
+	
 }
 
 p {
