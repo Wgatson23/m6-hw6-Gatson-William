@@ -6,8 +6,6 @@ footer {
 
 header {
 	border-bottom: 3px solid blue;
-	
-	
 }
 
 .container {
@@ -18,20 +16,20 @@ header {
 	position: absolute;
 	font-size: 30px;
 	color: rgb(0, 33, 165);
+	max-width: 900px;
+
 }
 
 .navc {
 	margin-left: 1750px;
-		
 }
 
 h1 {
 	display: inline-block;
-	text-align: left;
+	flex: auto;
 	font-size: 40px;
 	color: rgb(0, 33, 165);
 	font-family: Georgia, "Times New Roman", Times, serif;
-	border-bottom-color: black;
 }
 
 h2 {
@@ -62,6 +60,7 @@ h2 {
 
 main {
 	width: 75%;
+
 	padding: 0px;
 	display: inline-block;
 }
@@ -83,11 +82,12 @@ li {
 }
 
 p {
-	width: 1500px;
+
+	width: 1550px;
 	font-size: 20px;
 	line-height: 25px;
-	position: relative;
-	bottom: 20px;
+	display: inline-block;
+	background-color: rgb(218, 213, 213);
 }
 
 footer {
