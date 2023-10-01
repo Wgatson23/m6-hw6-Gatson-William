@@ -5,28 +5,23 @@
 }
 
 nav {
-	display: inline-flex;
+	display: flex;
+	flex-direction: row;
 	align-self: flex-end;
-	justify-self: flex-end;
 	width: 20%;
-	text-align: right;
 	font-size: 20px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	margin-top: 15px;
+	margin: 14px 14px 14px 250px;
+
 }
 
-.link {
-	text-decoration: none;
-	color: black;
-	word-spacing: 10px;
-}
+
 header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	border-bottom: 3px solid blue;
 	text-align: center;
-	word-spacing: 10px;
 	height: 75px;
 	padding: 30px;
 	margin: 40px, 400px, 0, 40px;
@@ -34,7 +29,7 @@ header {
 }
 
 section {
-	max-width: 550px;
+	max-width: 750px;
 	margin: auto;
 }
 
@@ -63,18 +58,22 @@ h2 {
 
 aside {
 	background-color: aliceblue;
-	margin: 14px 14px 14px 0px;
-	width: 200px;
+	margin: 14px 14px 14px 150px;
+	width: 350px;
 	height: 150px;
 	align-self: flex-start;
-	border-radius: 25px;
+	border-radius: 50px;
 }
 
 .container {
 	display: flex;
-	height: 100%;
-	padding: 20px;
+	justify-content: space-between;
 	justify-content: center;
+	padding: 40px;
+}
+
+.link {
+	margin-right: 20px;
 }
 
 body {
