@@ -1,104 +1,80 @@
 * {
 	margin: 0;
 	padding: 0;
+	border: 0;
 }
 
-.topnav {
+nav {
+	display: inline-flex;
+	align-self: flex-end;
+	justify-self: flex-end;
 	width: 20%;
-	float: right;
-	text-align: center;
+	text-align: right;
 	font-size: 20px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	margin-top: 15px;
 }
 
-header,
-nav {
-	padding: 0 20px;
+.link {
+	text-decoration: none;
+	color: black;
+	word-spacing: 10px;
+}
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 3px solid blue;
+	text-align: center;
+	word-spacing: 10px;
+	height: 75px;
+	padding: 30px;
+	margin: 40px, 400px, 0, 40px;
 	background-color: #fa4616;
 }
 
-nav {
-    text-align: right;
+section {
+	max-width: 550px;
+	margin: auto;
 }
-
-header {
-	border-bottom: 3px solid blue;
-word-spacing: 10px;
-	padding: 30px;
-	margin-bottom: 20px;
-}
-
 
 img {
 	float: left;
+	margin: 10px;
 }
 
-
-
 h1 {
+	align-self: flex-start;
+	justify-self: center;
 	font-size: 40px;
 	color: rgb(0, 33, 165);
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	border-bottom-color: black;
-	float: left;
 }
+
 h2 {
+	text-align: center;
 	font-size: 30px;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;
 	border-bottom: 3px solid blue;
-	line-height: 25px;
-	margin-bottom: 20px;
 }
 
-.stext {
-	font-weight: bold;
-	text-decoration-line: underline;
-}
-
-
-main {
-	max-width: 600px;
-	padding: 20px;
-	float: left;
+aside {
 	background-color: aliceblue;
-	margin-right: 20px;
-}
-
-aside { 
-	background-color: aliceblue;
-	float: left;
+	margin: 14px 14px 14px 0px;
 	width: 200px;
-	padding: 20px;
-}
-
-aside img {
-	width: 40px;
-	height: auto;
-	margin: 0 10px;
-}
-
-img {
-	float: left;
-	margin: 16px;
-}
-
-.sidebar {
-	width: 20%;
-	flex-direction: row;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	float: right;
-	padding: 10px 10px 10px 0px;
-	font-size: 30px;
-	color: rgb(0, 33, 165);
-	background-color: aliceblue;
+	height: 150px;
+	align-self: flex-start;
+	border-radius: 25px;
 }
 
 .container {
-	max-width: 900px;
-	margin: 0 auto;
+	display: flex;
+	height: 100%;
+	padding: 20px;
+	justify-content: center;
 }
 
 body {
@@ -111,14 +87,11 @@ body {
 
 li {
 	list-style-type: none;
-	text-align: center;
 }
 
 p {
-	/* width: 1550px; */
 	font-size: 20px;
-	line-height: 25px;
-	/* display: inline-block; */
+	text-align: justify;
 	background-color: aliceblue;
 }
 
@@ -126,6 +99,8 @@ footer {
 	font-size: 20px;
 	text-align: center;
 	color: white;
+	width: 100%;
+	bottom: 0;
 	background-color: #fa4616;
 	clear: both;
 }
